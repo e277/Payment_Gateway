@@ -117,16 +117,7 @@ home with your own domain and join the billions of businesses selling online.
               alt=""
             />
           </div>
-          <!-- Content -->
-          <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Manage Inventory In One Click</h1>
-            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-                Upload your existing SKUs or start creating your own inventory with our comprehensive
-                 management tools that can accommodate multiple variants, sizes, features, colours.
-            </p>
-            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
-          </div>
-        </div>
+         
         <!-- Rounded Rectangle -->
         <div
           class="
@@ -195,11 +186,9 @@ home with your own domain and join the billions of businesses selling online.
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Receive Payments Direct
-                To Your Local Account</h1>
+            <h1 class="text-3xl text-bookmark-blue">Process payments</h1>
             <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Join the millions of businesses selling online with your own e-commerce store. Process credit card payments and
-receive directly to your local business account.
+              Join the millions of businesses selling online with your own e-commerce store.
             </p>
             <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
           </div>
@@ -222,68 +211,6 @@ receive directly to your local business account.
       </div>
     </section>
 
-    <!-- Download -->
-    <section class="py-20 mt-20" id="Pricing">
-      <!-- Heading -->
-      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-        <h1 class="text-3xl text-center text-bookmark-blue">Find the right plan for your business</h1>
-        <p class="text-center text-bookmark-grey mt-4">
-          We’ve got afforable pricing plan in the pipeline. Set up your store, pick a plan later.
-          Try Amber eStore free for 60 days, no credit card required
-      </div>
-      <!-- Cards -->
-      <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
-        <!-- Card 1 -->
-        <div class="flex flex-col rounded-md shadow-md lg:mb-16">
-          <div class="p-6 flex flex-col items-center">
-            <img src="./imgs/logo-chrome.svg" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue font-bold text-lg">Free</h3>
-            <p class="mb-2 text-bookmark-black font-bold text-6xl">$0</p>
-            <p class="mb-2 text-bookmark-grey b-font-light">Free Plan for 60 Days</p>
-            <p class="mb-2 text-bookmark-grey font-light">Easy online store to launch <br>your business for free</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <a href="{{ route('register') }}" class="flex-1 text-center btn btn-purple hover:bg-bookmark-white hover:text-black">
-                Sign up
-              </a>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="flex flex-col rounded-md shadow-md lg:my-8">
-          <div class="p-6 flex flex-col items-center">
-            <img src="./imgs/logo-firefox.svg" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue font-bold text-lg">Basic </h3>
-            <p class="mb-2 text-bookmark-black font-bold text-6xl">$29</p>
-            <p class="mb-2 text-bookmark-grey font-light">usd per month</p>
-            <p class="mb-2 text-bookmark-grey font-light">Professional features to grow and<br> 
-                manage your online store</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <a href="{{ route('register') }}" class="flex-1 text-center btn btn-purple hover:bg-bookmark-white hover:text-black">
-                Sign up
-              </a>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="flex flex-col rounded-md shadow-md lg:mt-16">
-          <div class="p-6 flex flex-col items-center">
-            <img src="./imgs/logo-opera.svg" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue font-bold text-lg">Business</h3>
-            <p class="mb-2 text-bookmark-black font-bold text-6xl">$69</p>
-            <p class="mb-2 text-bookmark-grey font-light">usd per month</p>
-            <p class="mb-2 text-bookmark-grey font-light">Advanced ecommerce solutions to expand your business</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <a href="{{ route('register') }}" class="flex-1 text-center btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Sign up
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- FAQ -->
     <section class="bg-bookmark-white py-20">
@@ -362,21 +289,7 @@ receive directly to your local business account.
     <footer class="bg-gray-100">
         <div class="container mx-auto px-6 pt-10 pb-6">
           <div class="flex flex-wrap">
-            <div class="w-full md:w-1/4 text-center md:text-left">
-              <h5 class="uppercase mb-6 font-bold">Links</h5>
-              <ul class="mb-4">
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">FAQ</a>
-                </li>
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Help</a>
-                </li>
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Support</a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-full md:w-1/4 text-center md:text-left">
+            <div class="w-full md:w-1/2 text-center md:text-left">
               <h5 class="uppercase mb-6 font-bold">Legal</h5>
               <ul class="mb-4">
                 <li class="mt-2">
@@ -387,21 +300,7 @@ receive directly to your local business account.
                 </li>
               </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left">
-              <h5 class="uppercase mb-6 font-bold">Social</h5>
-              <ul class="mb-4">
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Facebook</a>
-                </li>
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Linkedin</a>
-                </li>
-                <li class="mt-2">
-                  <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Twitter</a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-full md:w-1/4 text-center md:text-left">
+            <div class="w-full md:w-1/2 text-center md:text-left">
               <h5 class="uppercase mb-6 font-bold">Company</h5>
               <ul class="mb-4">
                 <li class="mt-2">
@@ -418,14 +317,9 @@ receive directly to your local business account.
             </div>
             <div class="md:text-left  gap-10 mt-12 md:mt-0">
                 <ul class="flex items-left text-red uppercase gap-12 text-xs">
-                    <li>amber.estore&nbsp;<i class="text-red-500 text-2xl fab fa-twitter"></i></li>
-                    <li>amber.estoreja &nbsp;<i class="text-red-500 text-2xl fab fa-facebook-square"></i></li>
-                    <li>Email:myabmer@gmail.com</li>
+                    <li>Email: myabmer@gmail.com</li>
                     <li>Adress: Amber Group,435 New Ave,St.Andrew</li>
-                    <li>Telephone: 876 987 5645 or 876 345 8975</li>
-                    <li></li>
-                    
-                    
+                    <li>Telephone: 876 987 5645 or 876 345 8975</li>      
                     <li class="flex flex-end">
                         <p class="text capitalize text-gray-400 text-left flex flex-end">
                           All rights reserved by @ Amber eStore 2021
