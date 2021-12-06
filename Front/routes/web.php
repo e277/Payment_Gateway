@@ -33,3 +33,12 @@ Route::get('/mystore', function () {
 Route::get('/single', function () {
     return view('ownerstore.single');
 });
+Route::get('/cart', function () {
+    return view('ownerstore.cart');
+});
+Route::get('/checkout', function () {
+    return view('ownerstore.checkout');
+});
+Route::get('/email', function () {
+    return view('ownerstore.email');
+});
