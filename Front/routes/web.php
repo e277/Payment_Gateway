@@ -12,13 +12,24 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// fontstore
 Route::get('/', function () {
-    return view('welcome');
+    return view('estore.index');
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('estore.dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+// owner store
+Route::get('/createstore', function () {
+    return view('ownerstore.createstore');
+});
+Route::get('/mystore', function () {
+    return view('ownerstore.mystore');
+});
+Route::get('/single', function () {
+    return view('ownerstore.single');
+});

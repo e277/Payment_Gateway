@@ -12,12 +12,18 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            
+                    colors: {
+                      'custom-amber':'#BAA333',
+                    },
+            
         },
     },
 
     variants: {
         extend: {
             opacity: ['disabled'],
+            // display: ["group-hover"],
         },
     },
 
