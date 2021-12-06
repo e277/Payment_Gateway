@@ -14,7 +14,8 @@ class CustomerFactory extends Factory
     public function definition()
     {
         return [
-            'customer_nm' => $this->faker->name()
+            'first_name' => $this->faker->firstName(),
+            'last_name' => $this->faker->lastName()
         ];
     }
 }

@@ -12,7 +12,7 @@ class Product extends Model
 
     protected $guarded = [];
 
-    public function owner(): BelongsTo
+    public function user(): BelongsTo
     {
         return $this->belongsTo(Owner::class);
     }

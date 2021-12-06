@@ -15,10 +15,10 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained('users', 'id');
             $table->string('product_nm');
-            $table->foreignId('owner_id')->constrained('owners', 'id');
-            $table->decimal('price', 8, 2)->default(0.00);
-            $table->string('status');
+            $table->decimal('price_usd', 8, 2)->default(0.00);
+            $table->string('status')->default(0);
             $table->timestamps();
         });
     }
