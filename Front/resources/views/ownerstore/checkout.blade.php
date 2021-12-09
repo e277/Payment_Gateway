@@ -97,14 +97,8 @@
                                         <input type="radio" class="form-radio" name="accountType" value="personal">
                                         <span class="ml-2">Credit card</span>
                                       </label>
-                                      <label class="inline-flex items-center ml-6">
-                                        <input type="radio" class="form-radio" name="accountType" value="busines">
-                                        <span class="ml-2">eTransfer</span>
-                                      </label>
-                                      <label class="inline-flex items-center ml-6">
-                                        <input type="radio" class="form-radio" name="accountType" value="busines">
-                                        <span class="ml-2">Paypal</span>
-                                      </label>
+            
+                                      
                                     </div>
                                   </div>
                                   <br><br>

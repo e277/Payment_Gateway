@@ -269,7 +269,7 @@ home with your own domain and join the billions of businesses selling online.
     <section class="bg-bookmark-purple text-white py-20" id="Contact">
       <div class="container">
         <div class="sm:w-3/4 lg:w-2/4 mx-auto">
-          <p class="font-light uppercase text-center mb-8">35,000+ ALREADY JOINED</p>
+          <p class="font-light uppercase text-center mb-8">Join our Team</p>
           <h1 class="text-3xl text-center">Stay up-to-date with what we’re doing</h1>
           <div class="flex flex-col sm:flex-row gap-6 mt-8">
             <input
